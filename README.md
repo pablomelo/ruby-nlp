@@ -5,13 +5,13 @@ http://www-nlp.stanford.edu/software/CRF-NER.shtml
 ## Install
 
 Use Bundler to install the dependencies:
-    bundle install
+<pre><code> bundle install </code></pre>
 
 ## Use
 
 To run the default example:
-    ruby nlp.rb
+<pre><code> ruby nlp.rb </code></pre>
 
 This will perform entity recognition on a static, hard-coded sentence.
 
-View <pre><code>nlp.rb</code></pre> to see how the Ruby bindings to Java work using the Ruby-Java Bridge (RJB) and how to pass additional data to the recognizer.
+View *nlp.rb* to see how the Ruby bindings to Java work using the Ruby-Java Bridge (RJB) and how to pass additional data to the recognizer.
